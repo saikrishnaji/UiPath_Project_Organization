@@ -252,12 +252,12 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <Transition.Condition>
-                              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="continueAns.Equals(&quot;No&quot;)" />
+                              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="continueAns.Equals(&quot;No&quot;)" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_7" />
                             </Transition.Condition>
                             <Transition.To>
-                              <State x:Name="__ReferenceID4" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="152.666666666667,67.3333333333333" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
+                              <State x:Name="__ReferenceID4" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="380.666666666667,224.666666666667" sap2010:WorkflowViewState.IdRef="State_1" IsFinal="True">
                                 <State.Entry>
-                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Bye.. Have a Great day&quot;]" />
+                                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,58.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Bye.. Have a Good day&quot;]" />
                                 </State.Entry>
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -283,7 +283,7 @@
                               <x:Reference>__ReferenceID1</x:Reference>
                             </Transition.To>
                             <Transition.Condition>
-                              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="continueAns.Equals(&quot;Yes&quot;)" />
+                              <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="continueAns.Equals(&quot;Yes&quot;)" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_8" />
                             </Transition.Condition>
                           </Transition>
                         </State.Transitions>
